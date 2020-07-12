@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<!--
+	Introspect by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Sistema de Ventas</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/fonts.css">
+		
+	</head>
+	<body>
+
+		<!-- Header -->
+		<header id="header">
+			<div class="inner">
+				<a href="index.html" class="logo">GuzaroCode</a>
+				<nav id="nav">
+					<a href="index.html">Inicio</a>
+					<a href="generic.html">Contacto</a>
+				</nav>
+			</div>
+		</header>
+		<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+		<!-- Banner -->
+		<!-- Main -->
+			<section id="main" >
+				<div class="inner">
+					<header class="major special">
+						<h1>Sistema de Ventas en Node.js</h1>
+						<h4>Fecha de Realizacion: 23/02/2020 </h4>
+					</header>
+
+					<p>Este proyecto busca ser un sistema para ventas de manera online, como todos los proyectos de codigo back-end esta programado con el lenguaje JavaScript, con el entorno de trabajo Node.js, se utilizo como gestor de Base de datos MongoDB y con el framewor que trabaja como servidor de aplicaciones Express, para ver el funcionamiento de la API se utiliz Postman para las solicitudes HTTP y ver los datos guardados se utilizo Robo3T:
+						<ul>
+							<li>Body-Parser</li>
+							<li>jwt-simple</li>
+							<li>moment</li>
+							<li>bcrypt-nodejs</li>
+						</ul>
+					</p>
+
+					<p>El desarrollo de esta API fue mediante el patron de diseño Modelo-Vista-Controlador teniendo 5 modelos que son: Usuario, Carrito de Compras, Productos, Categorias, y Facttura. Al estar orientado a un sistema para ventas debe de contar con funciones que puedan suplir las necesidades de usuarios clientes y usuarios pertenecientes a la empresa, es por ello que la API para ambos tipos de usuario permite realizar un registro de usuario con datos que son necesarios para el buen funcionamiento al igual que cuenta con un Inicio de Sesion para autenticar la validez del usuario la cantidad de permisos que este posee, estos permisos son controlados mediante un "Rol" que diferencia entre usuario cliente y un usuario administrador, como otros proyectos este permite alterar los datos de un usuario propio, este proyecto es util para la gestion de inventario ya que este se clasifica por seccion, haciendo mas facil la busqueda de productos y la manipulacion de estos, cabe resaltar que estas ultimas acciones pueden ser realizadas unicamente por usuarios que tengan un rol "ADMIN", los usuarios clientes podran buscar los productos por diferente filtros los cuales son: productos mas vendidos, productos menos vendidos, productos por categoria, productos ordenados de manera ascendente y descendente por precio, y por coincidencia de caracteres; una vez los usuarios hayan encontrado el o los productos podran agregar este a un carrito de compras en donde se estara dando un total del precio, si el usuario confirma la compra de los productos se procedera a generar una factura con los datos anteriormente obtenidos, como ya es logico el usuario cliente tendra el control de su propia y unica cuenta, y los usuarios pertenecientes a la empresa podran controlar todas las funciones</p>
+					<p>Las habilidades obtenidas por este proyecto fueron muy significativas ya que puse en practica lo aprendido durante los ultimos meses y de esta manera mejorar en la escritura de codigp</p>
+					<p>Para acceder al proyecto ingrese al siguiente link de github <a href="https://github.com/jguzaro2018017/Sistema-de-Ventas-Node.js" target="_black">Click Aqui</a></p>
+					<div class="container">
+						<ul>
+						  <li><img src="./images/SV-1.PNG" style="height: 100%;"/></li>
+						  <li><img src="./images/SV-2.PNG"/></li>
+						  <li><img src="./images/SV-3.PNG"/></li>
+						</ul>
+						<ul class="menu">
+						  <li>
+							<a style="text-align: center;" href="#slide1">1</a>
+						  </li>
+						  <li>
+							<a href="#slide2">2</a>
+						  </li>
+						   <li>
+							<a href="#slide3">3</a>
+						  </li>
+						</ul>
+					  </div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+		<div style="height: 250px;" id="wrapper4">
+			<div id="footers" class="containerfooter">
+				<div style="margin-top: -125px;">
+					<header class="title">
+						<h2 style="color: white;">Contacto</h2>
+						<span class="byline">Contáctame por correo o visita mi usuario de github si tienes alguna duda</span> </header>
+					<ul class="contact">
+						<li><a href="mailto:alexguz039@gmail.com" target="_blank" class="icon icon-envelope"><span></span></a></li>
+						<li><a href="https://github.com/jguzaro2018017" target="_blank" class="icon icon-github"><span>jguzaro2018017</span></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/jquery.minh.js"></script>
+			<script src="assets/js/jquery.scrollex.minh.js"></script>
+			<script src="assets/js/skel.minh.js"></script>
+			<script src="assets/js/utilh.js"></script>
+			<script src="assets/js/mainh.js"></script>
+			<script src="assets/js/jqueryslider.js"></script>
+	</body>
+</html>
